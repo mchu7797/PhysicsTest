@@ -36,6 +36,7 @@ app.stage.addChild(movingWall);
 
 app.ticker.add(function (delta) {
     sigong.rotation += 0.5 * delta;
+    sigong2.rotation += 0.5 * delta;
     MovingSigong(sigong);
     MovingSigong(sigong2);
 });
